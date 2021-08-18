@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="start"><p class="" id="startButton">Start</p></div>
+    <div id="app" class="app">
+      <div id="speechyState">
+        <span id="tokoName">Toko</span><span id="speechyStateProcess"></span>
+      </div>
+      <div class="main" id="main">
+        <div class="username" id="username">
+          <input
+            type="text"
+            id="usernameInput"
+            class="username__input"
+            spellcheck="false"
+            maxlength="25"
+          />
+          <p class="username__hint" id="name-hint">
+            <span id="usernameLength"></span> / 25
+          </p>
+        </div>
+
+        <p class="name__holder" id="nameHolder"></p>
+
+        <p class="go-button btn" id="goButton">Go</p>
+
+        <section class="synth" style="display: none">
+          <form>
+            <select style=""></select>
+          </form>
+          <p id="default-voice"></p>
+        </section>
+      </div>
+    </div>
+    <!-- <div id="pis" class="rainbow_text animated">JEBAĆ PIS</div> -->
+    <p style="position: absolute; bottom: 0; left: 0.5%; font-size: 1rem">
+      1.99
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
